@@ -105,3 +105,18 @@ git branch -d new-branch # 删除
 ```
 
 推送所有分支：去 `master` 加 `--all`
+
+# tag or branch
+
+> tag就是一个只读的branch，一般为每一个可发布的里程碑版本打一个tag
+> 
+> tag就像是一个里程碑一个标志一个点，branch是一个新的征程一条线；
+> tag是静态的，branch要向前走；
+> 稳定版本备份用tag，新功能多人开发用branch（开发完成后merge到master）。
+> 
+> tag就是给一个branch节点“再“取个别名，一般标记一个里程碑版本的。
+
+## 自己的理解
+
++ tag 打在更改后的状态节点上
++ branch 是指向状态节点的指针
