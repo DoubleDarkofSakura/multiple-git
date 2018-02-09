@@ -77,4 +77,24 @@ git push gitee master
 
 [说明 & 教程](http://blog.csdn.net/wangjia55/article/details/8793577/)
 
+```bash
+git tag # 列出
+git tag v1.0.0 # 添加
+git tag -d v1.0.0 # 删除
+git tag -l v1.0.* # 查找
+```
+
 推送tag：加 `--tags`
+
+# What's branch
+
+[说明 & 教程](https://git-scm.com/book/zh/v1/Git-分支-分支的新建与合并)
+
+```bash
+git checkout -b new-branch # 新增 并 切换
+
+git branch new-branch # 新增
+git checkout new-branch # 切换
+```
+
+推送所有分支：去 `master` 加 `--all`
