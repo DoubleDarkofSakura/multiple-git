@@ -50,3 +50,18 @@ git push -u origin master
 git push -u coding master
 git push -u gitee master
 ```
+
+注意：
+
+1. origin -> github 和 gitee -> 码云 是 邮箱加密码
+2. coding 是 用户名加密码
+
+## Step 7 Change File
+
+## Step 8 Commit
+
+## Step 9 Push
+
+```
+git push all --all
+```
