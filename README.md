@@ -123,3 +123,11 @@ git branch -d new-branch # 删除
 
 + tag 打在更改后的状态节点上
 + branch 是指向状态节点的指针
+
+# 远程仓库改名
+
+`git remote rename <old> <new>`
+
+```bash
+git remote rename origin github
+```
