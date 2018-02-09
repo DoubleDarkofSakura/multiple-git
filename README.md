@@ -72,3 +72,9 @@ git push gitee master
 ```
 ./push.sh
 ```
+
+# What's tag
+
+[说明 & 教程](http://blog.csdn.net/wangjia55/article/details/8793577/)
+
+推送tag：加 `--tags`
