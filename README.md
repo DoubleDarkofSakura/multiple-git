@@ -100,7 +100,10 @@ git checkout new-branch # 切换
 ```bash
 git checkout master # 回到 master 分支
 git merge new-branch # 合并
+```
 
+```bash
+git branch # 列出
 git branch -d new-branch # 删除
 ```
 
