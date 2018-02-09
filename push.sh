@@ -1,3 +1,3 @@
-git push -u origin master --tags
-git push coding master --tags
-git push gitee master --tags
+git push -u origin --all --tags
+git push coding --all --tags
+git push gitee --all --tags
