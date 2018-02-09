@@ -55,13 +55,20 @@ git push -u gitee master
 
 1. origin -> github 和 gitee -> 码云 是 邮箱加密码
 2. coding 是 用户名加密码
+3. `-u` 指定默认主机 - 最后指定了 `-u gitee`
 
-## Step 7 Change File
+## Step 7 Change File & Add Shell
+
+```bash
+git push -u origin master
+git push coding master
+git push gitee master
+```
 
 ## Step 8 Commit
 
 ## Step 9 Push
 
 ```
-git push all --all
+./push.sh
 ```
